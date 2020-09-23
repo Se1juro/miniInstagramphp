@@ -1,0 +1,64 @@
+<div class="cardProfile">
+  <div class="cardProfile__info">
+    <div class="cardProfile__img">
+      <img src="./images/uzYHM77e_400x400.jpg" alt="..." />
+    </div>
+    <section class="cardProfile__SectionInfo">
+      <div class="cardProfile__config">
+        <h3>Se1juro</h3>
+        <button
+          type="button"
+          class="btn btn-light"
+          style="border-color: #d9d9d9"
+        >
+          Editar perfil
+        </button>
+        <i class="fas fa-cog"></i>
+      </div>
+      <div class="cardProfile__posts">
+        <p>
+          <strong>10</strong>
+          publicaciones
+        </p>
+        <p>
+          <strong>157</strong>
+          seguidores
+        </p>
+        <p>
+          <strong>170</strong>
+          seguidos
+        </p>
+      </div>
+      <div class="cardProfile__descripcion">
+        <p><strong>Daniel Morales</strong></p>
+        <p>FullStack Developer 👨🏾‍💻</p>
+        <p>Life is a boom 🌻</p>
+        <a href="http://se1juro.github.io" class="font-weight-bold"
+          >Portafolio</a
+        >
+      </div>
+    </section>
+  </div>
+
+  <div class="cardProfile__historias">
+    <img src="./images/25511642.png" alt="Historia 1" class="img-fluid" />
+    <img src="./images/xd.jpg" alt="Historia 1" class="img-fluid" />
+    <form
+      action="./server/uploadPictures.php"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <input type="file" class="input-file" name="archivo" id="upload" />
+      <label class="btn btn-light" for="upload" style="border-color: #d9d9d9">
+        Subir imagen
+      </label>
+      <input
+        type="submit"
+        class="btn btn-light"
+        for="upload"
+        style="border-color: #d9d9d9"
+        value="Subir"
+      />
+    </form>
+  </div>
+</div>

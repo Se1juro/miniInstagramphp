@@ -1,0 +1,149 @@
+.cardProfile {
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+
+.cardProfile__info {
+    display: flex;
+    margin-top: 20px;
+}
+
+.cardProfile__SectionInfo {
+    margin-left: 150px;
+}
+
+.cardProfile__config {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cardProfile__config h3 {
+    margin-right: 20px;
+}
+
+.cardProfile__config button {
+    margin-right: 20px;
+}
+
+.input-file {
+    position: absolute;
+    display: none;
+}
+
+.cardProfile__img {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardProfile__img img {
+    display: block;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.cardProfile__posts {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardProfile__posts p {
+    margin-right: 20px;
+}
+
+.cardProfile__descripcion p {
+    margin: 0;
+}
+
+.cardProfile__descripcion a {
+    color: #071362;
+}
+
+.cardProfile__descripcion a:hover {
+    color: #071362;
+    text-decoration: none;
+}
+
+.fa-cog {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.cardProfile__historias {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.cardProfile__historias img {
+    border-radius: 50%;
+
+    width: 120px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.containerPosts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containerPosts__wrapper img {
+    margin-right: 20px;
+    width: 250px;
+}
+
+.containerPosts__wrapper {
+    margin-bottom: 100px;
+}
+
+.btn-upload {
+    width: 120px;
+}
+
+.containerPosts__wrapper img {
+    margin-bottom: 30px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:859px) {
+    .cardProfile__img {
+        text-align: center;
+    }
+
+    .cardProfile__info {
+        flex-direction: column;
+    }
+
+    .cardProfile__img img {
+        width: 100px;
+    }
+
+    .containerPosts {
+        text-align: center;
+    }
+
+    .cardProfile__SectionInfo {
+        margin-left: 0;
+    }
+
+    .cardProfile__posts {
+        margin-bottom: 0;
+    }
+
+    .cardProfile__posts p {
+        text-align: center;
+    }
+
+    .cardProfile__historias img {
+        width: 70px;
+    }
+}
